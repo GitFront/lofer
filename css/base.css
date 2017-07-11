@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+img {
+  display: block;
+  border: none;
+}
+
+input,
+button {
+  border: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+a, span {
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=base.css.map */
